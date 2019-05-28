@@ -53,6 +53,12 @@ def demo5():
     return redirect(url_for('demo2', user_id=996))
 
 
+# 返回自定义的状态码
+@app.route('/demo6')
+def demo6():
+    return 'demo6', 666
+
+
 if __name__ == '__main__':
     app.run(debug=True)
     print(app.url_map)
