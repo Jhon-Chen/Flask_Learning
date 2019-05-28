@@ -1,6 +1,6 @@
 import json
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, redirect, url_for
 
 app = Flask(__name__)
 
@@ -43,6 +43,14 @@ def demo4():
     # return result
 
     return jsonify(json_dict)
+
+
+# 重定向
+@app.route('/redirect')
+def demo5():
+
+    # return redirect('http://47.100.200.127')
+    return redirect(url_for('demo2', user_id=996))
 
 
 if __name__ == '__main__':
