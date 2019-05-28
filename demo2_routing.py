@@ -1,6 +1,6 @@
 import json
 
-from flask import Flask, request
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
@@ -37,10 +37,12 @@ def demo4():
             "hobby": "sleep"}
     }
     # 使用json.dumps将字典转换成字符串
-    result = json.dumps(json_dict)
+    # result = json.dumps(json_dict)
     # 使用json.loads将json字符串转成字典
-    test_dit = json.loads('{"name": "gakki","age": 18}')
-    return result
+    # test_dit = json.loads('{"name": "gakki","age": 18}')
+    # return result
+
+    return jsonify(json_dict)
 
 
 if __name__ == '__main__':
