@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a602233b-e84f-4c2f-8dfa-6a5d10c30bdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo4_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo5_hook.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo4_error.py">
+        <entry file="file://$PROJECT_DIR$/demo5_hook.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/py3_flask/lib/python3.6/site-packages/flask/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="1294" column="21" selection-start-line="1294" selection-start-column="21" selection-end-line="1294" selection-end-column="21" />
+            <state relative-caret-position="234">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -54,6 +45,7 @@
         <option value="$PROJECT_DIR$/demo2_routing.py" />
         <option value="$PROJECT_DIR$/demo3_regex.py" />
         <option value="$PROJECT_DIR$/demo4_error.py" />
+        <option value="$PROJECT_DIR$/demo5_hook.py" />
       </list>
     </option>
   </component>
@@ -113,29 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo4_error">
-    <configuration name="01_helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Flask_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_helloworld.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.demo5_hook">
     <configuration name="demo1_helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Flask_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,20 +192,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo5_hook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Flask_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo5_hook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.01_helloworld" />
       <item itemvalue="Python.demo1_helloworld" />
       <item itemvalue="Python.demo2_routing" />
       <item itemvalue="Python.demo3_regex" />
       <item itemvalue="Python.demo4_error" />
+      <item itemvalue="Python.demo5_hook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo5_hook" />
         <item itemvalue="Python.demo4_error" />
         <item itemvalue="Python.demo3_regex" />
         <item itemvalue="Python.demo3_regex" />
         <item itemvalue="Python.demo2_routing" />
-        <item itemvalue="Python.demo1_helloworld" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +249,7 @@
       <workItem from="1559178380729" duration="1480000" />
       <workItem from="1559179920878" duration="91000" />
       <workItem from="1559180041610" duration="953000" />
-      <workItem from="1559181036555" duration="4366000" />
+      <workItem from="1559181036555" duration="5656000" />
     </task>
     <task id="LOCAL-00001" summary="flask配置">
       <created>1559011639376</created>
@@ -322,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559183190299</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="错误捕获">
+      <created>1559186280904</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559186280904</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25519000" />
+    <option name="totallyTimeSpent" value="26809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1172" height="920" extended-state="6" />
@@ -337,7 +336,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36984536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36984536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4007732" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,7 +368,8 @@
     <MESSAGE value="自定义状态码" />
     <MESSAGE value="正则转换器" />
     <MESSAGE value="转换器to_python&amp;to_url" />
-    <option name="LAST_COMMIT_MESSAGE" value="转换器to_python&amp;to_url" />
+    <MESSAGE value="错误捕获" />
+    <option name="LAST_COMMIT_MESSAGE" value="错误捕获" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -384,6 +384,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Flask_Learning$demo2_routing.coverage" NAME="demo2_routing Coverage Results" MODIFIED="1559044206305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask_Learning$demo5_hook.coverage" NAME="demo5_hook Coverage Results" MODIFIED="1559187348397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Learning$demo1_helloworld.coverage" NAME="demo1_helloworld Coverage Results" MODIFIED="1559011473423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Learning$01_helloworld.coverage" NAME="01_helloworld Coverage Results" MODIFIED="1558959607541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Learning$demo3_regex.coverage" NAME="demo3_regex Coverage Results" MODIFIED="1559183137264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -455,8 +456,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo4_error.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="490">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo5_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
