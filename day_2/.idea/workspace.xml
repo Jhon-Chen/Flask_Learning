@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2873755-19ee-4db6-b043-3092343e6285" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo7_control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/demo7_control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/rev1_uplode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/rev2_cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/rev3_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/rev4_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/rev5_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/rev6_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/rev7_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/templates/rev6_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review_code/templates/rev7_control.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo4_context.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo4_context.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +22,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/review_code/rev7_control.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/review_code/templates/rev7_control.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/demo7_control.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +82,6 @@
         <option value="$PROJECT_DIR$/demo3_session.py" />
         <option value="$PROJECT_DIR$/12.py" />
         <option value="$PROJECT_DIR$/f.py" />
-        <option value="$PROJECT_DIR$/demo4_context.py" />
         <option value="$PROJECT_DIR$/demo1_upload.py" />
         <option value="$PROJECT_DIR$/demo5_script.py" />
         <option value="$PROJECT_DIR$/templates/demo6_template.py" />
@@ -41,6 +89,16 @@
         <option value="$PROJECT_DIR$/templates/demo6_template.html" />
         <option value="$PROJECT_DIR$/demo7_control.py" />
         <option value="$PROJECT_DIR$/templates/demo7_control.html" />
+        <option value="$PROJECT_DIR$/review_code/rev1_uplode.py" />
+        <option value="$PROJECT_DIR$/review_code/rev2_cookie.py" />
+        <option value="$PROJECT_DIR$/review_code/rev3_session.py" />
+        <option value="$PROJECT_DIR$/demo4_context.py" />
+        <option value="$PROJECT_DIR$/review_code/rev4_context.py" />
+        <option value="$PROJECT_DIR$/review_code/rev5_script.py" />
+        <option value="$PROJECT_DIR$/review_code/templates/rev6_template.html" />
+        <option value="$PROJECT_DIR$/review_code/rev6_template.py" />
+        <option value="$PROJECT_DIR$/review_code/rev7_control.py" />
+        <option value="$PROJECT_DIR$/review_code/templates/rev7_control.html" />
       </list>
     </option>
   </component>
@@ -63,6 +121,17 @@
             <path>
               <item name="day_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="day_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day_2" type="462c0819:PsiDirectoryNode" />
+              <item name="review_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day_2" type="462c0819:PsiDirectoryNode" />
+              <item name="review_code" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day_2" type="b2602c69:ProjectViewProjectNode" />
@@ -100,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo7_control">
+  <component name="RunManager" selected="Python.rev6_template">
     <configuration name="demo4_context" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo5_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rev3_session" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,12 +200,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/review_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo5_script.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/review_code/rev3_session.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rev4_context" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/review_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/review_code/rev4_context.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rev5_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/review_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/review_code/rev5_script.py" />
       <option name="PARAMETERS" value="runserver -d" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo6_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rev6_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,56 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/review_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo6_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo7_control" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo7_control.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="f" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/review_code/rev6_template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,19 +281,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.rev3_session" />
       <item itemvalue="Python.demo4_context" />
-      <item itemvalue="Python.demo5_script" />
-      <item itemvalue="Python.f" />
-      <item itemvalue="Python.demo6_template" />
-      <item itemvalue="Python.demo7_control" />
+      <item itemvalue="Python.rev4_context" />
+      <item itemvalue="Python.rev5_script" />
+      <item itemvalue="Python.rev6_template" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo7_control" />
-        <item itemvalue="Python.demo6_template" />
-        <item itemvalue="Python.demo5_script" />
+        <item itemvalue="Python.rev6_template" />
+        <item itemvalue="Python.rev5_script" />
+        <item itemvalue="Python.rev4_context" />
         <item itemvalue="Python.demo4_context" />
-        <item itemvalue="Python.f" />
+        <item itemvalue="Python.rev3_session" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +312,7 @@
       <workItem from="1559263189120" duration="9317000" />
       <workItem from="1559274310501" duration="631000" />
       <workItem from="1559284607944" duration="4308000" />
+      <workItem from="1559291684168" duration="11370000" />
     </task>
     <task id="LOCAL-00001" summary="day2">
       <created>1559214111283</created>
@@ -325,17 +395,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21631000" />
+    <option name="totallyTimeSpent" value="33001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="875" height="917" extended-state="6" />
+    <frame x="67" y="25" width="1851" height="913" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36695018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10696921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899868" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23803364" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42138365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,7 +415,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32988358" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50127554" side_tool="true" weight="0.58344114" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987245" weight="0.57697284" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987245" weight="0.57610065" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -370,23 +441,22 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/day_2$demo7_control.coverage" NAME="demo7_control Coverage Results" MODIFIED="1559289322610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/day_2$rev3_session.coverage" NAME="rev3_session Coverage Results" MODIFIED="1559294802789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/review_code" />
     <SUITE FILE_PATH="coverage/day_2$demo3_session.coverage" NAME="demo3_session Coverage Results" MODIFIED="1559220982668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/day_2$f.coverage" NAME="f Coverage Results" MODIFIED="1559227516394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/day_2$demo4_context.coverage" NAME="demo4_context Coverage Results" MODIFIED="1559267096324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/day_2$rev2_cookie.coverage" NAME="rev2_cookie Coverage Results" MODIFIED="1559294140964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/review_code" />
+    <SUITE FILE_PATH="coverage/day_2$rev6_template.coverage" NAME="rev6_template Coverage Results" MODIFIED="1559308365571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/review_code" />
+    <SUITE FILE_PATH="coverage/day_2$demo4_context.coverage" NAME="demo4_context Coverage Results" MODIFIED="1559303425974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day_2$demo1_upload.coverage" NAME="demo1_upload Coverage Results" MODIFIED="1559214786693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/day_2$rev1_uplode.coverage" NAME="rev1_uplode Coverage Results" MODIFIED="1559292986887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/review_code" />
+    <SUITE FILE_PATH="coverage/day_2$rev4_context.coverage" NAME="rev4_context Coverage Results" MODIFIED="1559303792654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/review_code" />
+    <SUITE FILE_PATH="coverage/day_2$rev5_script.coverage" NAME="rev5_script Coverage Results" MODIFIED="1559304931187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/review_code" />
+    <SUITE FILE_PATH="coverage/day_2$f.coverage" NAME="f Coverage Results" MODIFIED="1559227516394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day_2$demo6_template.coverage" NAME="demo6_template Coverage Results" MODIFIED="1559285910615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day_2$demo2_cookie.coverage" NAME="demo2_cookie Coverage Results" MODIFIED="1559218061071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day_2$demo5_script.coverage" NAME="demo5_script Coverage Results" MODIFIED="1559272104413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1.png" />
-    <entry file="file://$USER_HOME$/.virtualenvs/py3_flask/lib/python3.6/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="1224" column="8" selection-start-line="1224" selection-start-column="8" selection-end-line="1224" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo2_cookie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -406,20 +476,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12.py" />
     <entry file="file://$PROJECT_DIR$/f.py" />
-    <entry file="file://$PROJECT_DIR$/demo1_upload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo4_context.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo5_script.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -430,24 +486,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/demo6_template.html">
+    <entry file="file://$PROJECT_DIR$/review_code/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1_upload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="672">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/rev1_uplode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3_flask/lib/python3.6/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="166" column="4" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="862" column="26" selection-start-line="862" selection-start-column="26" selection-end-line="862" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/rev2_cookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/rev3_session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/rev4_context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4_context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/rev5_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo6_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        <state relative-caret-position="295">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/demo6_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/templates/rev6_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3_flask/lib/python3.6/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="1224" column="8" selection-start-line="1224" selection-start-column="8" selection-end-line="1224" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/rev6_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/rev7_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="35" column="65" lean-forward="true" selection-start-line="10" selection-end-line="35" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/demo7_control.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="480">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -457,10 +617,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo7_control.py">
+    <entry file="file://$PROJECT_DIR$/review_code/templates/rev7_control.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="541">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

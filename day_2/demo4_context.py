@@ -14,6 +14,8 @@ app = Flask(__name__)
 def index():
     # print(request.method) 在这里是能够获取到的
     print(current_app.config.get('DEBUG'))
+    print(session.get('user_id', ''))
+    print(current_app.config.get('DEBUG'))
     return 'index'
 
 
