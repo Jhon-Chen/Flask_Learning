@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2873755-19ee-4db6-b043-3092343e6285" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo7_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/demo7_control.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo6_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo6_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/demo6_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/demo6_template.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,31 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/demo6_template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo6_template.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,8 +37,10 @@
         <option value="$PROJECT_DIR$/demo1_upload.py" />
         <option value="$PROJECT_DIR$/demo5_script.py" />
         <option value="$PROJECT_DIR$/templates/demo6_template.py" />
-        <option value="$PROJECT_DIR$/templates/demo6_template.html" />
         <option value="$PROJECT_DIR$/demo6_template.py" />
+        <option value="$PROJECT_DIR$/templates/demo6_template.html" />
+        <option value="$PROJECT_DIR$/demo7_control.py" />
+        <option value="$PROJECT_DIR$/templates/demo7_control.html" />
       </list>
     </option>
   </component>
@@ -93,9 +77,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../day_1" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
@@ -112,29 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo6_template">
-    <configuration name="demo3_session" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo3_session.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.demo7_control">
     <configuration name="demo4_context" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,6 +167,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo7_control" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo7_control.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="f" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.demo3_session" />
       <item itemvalue="Python.demo4_context" />
       <item itemvalue="Python.demo5_script" />
       <item itemvalue="Python.f" />
       <item itemvalue="Python.demo6_template" />
+      <item itemvalue="Python.demo7_control" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo7_control" />
         <item itemvalue="Python.demo6_template" />
         <item itemvalue="Python.demo5_script" />
         <item itemvalue="Python.demo4_context" />
         <item itemvalue="Python.f" />
-        <item itemvalue="Python.demo3_session" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +242,7 @@
       <workItem from="1559227452808" duration="143000" />
       <workItem from="1559263189120" duration="9317000" />
       <workItem from="1559274310501" duration="631000" />
-      <workItem from="1559284607944" duration="1562000" />
+      <workItem from="1559284607944" duration="4308000" />
     </task>
     <task id="LOCAL-00001" summary="day2">
       <created>1559214111283</created>
@@ -326,22 +314,28 @@
       <option name="project" value="LOCAL" />
       <updated>1559285820259</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="自定义过滤器">
+      <created>1559286251606</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559286251606</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18885000" />
+    <option name="totallyTimeSpent" value="21631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="875" height="917" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.36695018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899868" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5549806" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23803364" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,9 +365,11 @@
     <MESSAGE value="flask-script" />
     <MESSAGE value="template" />
     <MESSAGE value="过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="过滤器" />
+    <MESSAGE value="自定义过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义过滤器" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/day_2$demo7_control.coverage" NAME="demo7_control Coverage Results" MODIFIED="1559289322610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day_2$demo3_session.coverage" NAME="demo3_session Coverage Results" MODIFIED="1559220982668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day_2$f.coverage" NAME="f Coverage Results" MODIFIED="1559227516394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day_2$demo4_context.coverage" NAME="demo4_context Coverage Results" MODIFIED="1559267096324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -436,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/demo6_template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="569">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -445,6 +441,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/demo7_control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
