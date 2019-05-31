@@ -35,5 +35,18 @@ def demo1():
                            e=my_dict_list)
 
 
+# 自定义过滤器
+# 方式1: 装饰器形式
+# @app.template_filter('lireverse')
+def do_lireverse(li):
+    temp = list(li)
+    temp.reverse()
+    return temp
+
+
+# 方式2
+app.add_template_filter(do_lireverse, 'lireverse')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
