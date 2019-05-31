@@ -17,11 +17,22 @@ def demo1():
         'da': 1,
         'se': 'asd'
     }
+    my_dict_list = [
+        {
+            "good_name": "大白菜",
+            "price": 18,
+        },
+        {
+            "goof_name": "胡萝卜",
+            "price": 15,
+        }
+    ]
     return render_template('demo6_template.html',
                            a=my_int,
                            b=my_str,
                            c=my_list,
-                           d=my_dict)
+                           d=my_dict,
+                           e=my_dict_list)
 
 
 if __name__ == '__main__':
