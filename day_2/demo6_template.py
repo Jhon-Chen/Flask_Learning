@@ -11,7 +11,7 @@ def index():
 @app.route('/demo1')
 def demo1():
     my_int = 10
-    my_str = 'enheng'
+    my_str = '<h1>enheng<h1>'
     my_list = [1, 4, 5]
     my_dict = {
         'da': 1,

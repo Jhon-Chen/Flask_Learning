@@ -17,6 +17,17 @@
 <br>
 {#特有的链式调用#}
 {{ 'asd548' | reverse | upper |reverse}}
-
+<br>
+列表的过滤器:<br>
+{{ c | last }}<br>
+长度: {{ c | length }}
+排序: {{ c | sort }}
+<br>
+按html显示:
+<br>
+{{ b | safe }}
+<br>
+默认的html的字符串会按照原样显示, 可以使用safe进行表示该字符串是安全的.
+标识之后就可以按照html样式显示并执行
 </body>
 </html>
