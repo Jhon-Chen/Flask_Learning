@@ -29,5 +29,10 @@ def demo4():
     return render_template('detail.html')
 
 
+@app.route('/demo5')
+def demo5():
+    return render_template('temp3_include.html')
+
+
 if __name__ == '__main__':
     app.run()
