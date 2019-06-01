@@ -19,6 +19,14 @@ def demo2():
     return render_template('temp2_extend.html', a=list1)
 
 
+@app.route('/demo3')
+def demo3():
+    return render_template('index.html')
+
+
+@app.route('/demo4')
+def demo4():
+    return render_template('detail.html')
 
 
 if __name__ == '__main__':
