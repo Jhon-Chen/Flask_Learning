@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2873755-19ee-4db6-b043-3092343e6285" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/review_code/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/rev1_uplode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/rev2_cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/rev3_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/rev4_context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/rev5_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/rev6_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/rev7_control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/templates/rev6_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_code/templates/rev7_control.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo4_context.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo4_context.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,47 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review_code/rev7_control.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/review_code/templates/rev7_control.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/demo7_control.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,33 +64,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="day_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_2" type="462c0819:PsiDirectoryNode" />
-              <item name="review_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_2" type="462c0819:PsiDirectoryNode" />
-              <item name="review_code" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_2" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -312,7 +235,8 @@
       <workItem from="1559263189120" duration="9317000" />
       <workItem from="1559274310501" duration="631000" />
       <workItem from="1559284607944" duration="4308000" />
-      <workItem from="1559291684168" duration="11370000" />
+      <workItem from="1559291684168" duration="11392000" />
+      <workItem from="1559355657189" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="day2">
       <created>1559214111283</created>
@@ -391,17 +315,23 @@
       <option name="project" value="LOCAL" />
       <updated>1559286251606</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="control">
+      <created>1559309241022</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559309241022</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33001000" />
+    <option name="totallyTimeSpent" value="33077000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1851" height="913" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="25" width="889" height="932" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10696921" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28008997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -437,7 +367,8 @@
     <MESSAGE value="template" />
     <MESSAGE value="过滤器" />
     <MESSAGE value="自定义过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义过滤器" />
+    <MESSAGE value="control" />
+    <option name="LAST_COMMIT_MESSAGE" value="control" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/day_2$demo7_control.coverage" NAME="demo7_control Coverage Results" MODIFIED="1559289322610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -590,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/review_code/rev7_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo7_control.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
@@ -627,6 +551,13 @@
             <element signature="n#style#0;n#li#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_code/rev7_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
