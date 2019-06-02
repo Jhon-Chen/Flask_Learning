@@ -29,6 +29,8 @@ def register_wtf():
         username = request.form.get("username")
         password = request.form.get("password")
         password2 = request.form.get("password2")
+        # 取值方式2
+        # username = register_form.username.data
         # 假装做注册操作
         print(username, password, password2)
         return "success"
