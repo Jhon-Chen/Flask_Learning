@@ -15,5 +15,13 @@
 {% for message in get_flashed_messages() %}
 {{ message }}
 {% endfor %}
+<hr>
+以下表单使用WTF<br>
+<form method="post">
+    {{ form.username.label }}{{ form.username }}<br>
+    {{ form.password.label }}{{ form.password }}<br>
+    {{ form.password2.label }}{{ form.password2 }}<br>
+    {{ form.submit }}<br>
+</form>
 </body>
 </html>

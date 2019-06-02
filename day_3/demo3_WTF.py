@@ -1,12 +1,27 @@
 from flask import Flask, render_template, request, flash
+from flask_wtf import FlaskForm
+from wtforms import StringField, PasswordField, SubmitField
 
 app = Flask(__name__)
 app.secret_key = 'qwoeufkljniuc'
 
 
+class RegisterForm(FlaskForm):
+    username = StringField('用户名:', render_kw={'placeholder': '我是占位文字'})
+    password = PasswordField('密码:')
+    password2 = PasswordField('确认密码:')
+    submit = SubmitField('注册')
+
+
 @app.route('/')
 def index():
     return 'index'
+
+
+@app.route('/register_wtf', methods=['POST', 'GET'])
+def register_wtf():
+    register_form = RegisterForm()
+    return render_template('temp5_WTF.html', form=register_form)
 
 
 @app.route('/register', methods=['POST', 'GET'])
