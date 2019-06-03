@@ -1,10 +1,22 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import InputRequired
 
 app = Flask(__name__)
 # 配置数据库
 app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://jhonchen:2553522375@localhost:3306/booktest"
-app.config['SQLACHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.secret_key = 'asfzxcqwe'
+
+
+class AddBookForm(FlaskForm):
+    author = StringField('作者', validators=[InputRequired('请输入作者')])
+    book = StringField('图书', validators=[InputRequired('请输入书名')])
+    submit = SubmitField("添加")
+
+
 db = SQLAlchemy(app)
 
 
@@ -30,7 +42,13 @@ class Book(db.Model):
 
 @app.route('/')
 def index():
-    return 'index'
+    # 返回首页
+    book_form = AddBookForm()
+    # 查询数据
+    authors = Author.query.all()
+    # 将数据传入模板中
+
+    return render_template('demo1_book.html', authors=authors, form=book_form)
 
 
 if __name__ == '__main__':
@@ -54,6 +72,5 @@ if __name__ == '__main__':
     db.session.add_all([bk1, bk2, bk3, bk4, bk5])
     # 提交会话
     db.session.commit()
-
 
     app.run(debug=True)
