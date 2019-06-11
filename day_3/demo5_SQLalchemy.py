@@ -22,6 +22,7 @@ class Role(db.Model):
     # 以便可以直接通过 user.role 方法到一的一方的数据
     users = db.relationship('User', backref='role')
 
+    # repr方法显示一个字符串
     def __repr__(self):
         return 'Role %d %s' % (self.id, self.name)
 
