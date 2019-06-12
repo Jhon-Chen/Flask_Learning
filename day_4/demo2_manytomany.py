@@ -1,12 +1,12 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy, models_committed
 
 app = Flask(__name__)
 app.secret_key = "asdoqiwm"
 
 # 配置数据库
 app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://jhonchen:2553522375@localhost:3306/manytomany"
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 db = SQLAlchemy(app)
 
@@ -38,6 +38,12 @@ class Course(db.Model):
     # 课程表
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(64), unique=True)
+
+
+@models_committed.connect_via(app)
+def db_changed():
+
+
 
 
 @app.route('/')
