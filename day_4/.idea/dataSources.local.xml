@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>jhonchen</user-name>
-      <introspection-schemas>*:@,Practice,booktest,mysql,performance_schema,sys,text_flask</introspection-schemas>
+      <introspection-schemas>*:@,Practice,booktest,manytomany,mysql,performance_schema,sys,text_flask</introspection-schemas>
     </data-source>
   </component>
 </project>

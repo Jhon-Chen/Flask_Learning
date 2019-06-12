@@ -25,7 +25,13 @@ class Student(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(64), unique=True)
     # 建立关系使表便于查询
-    course = db.relationship('Course', backref="students", secondary=tb_student_course)
+    course = db.relationship('Course',
+                             backref=db.backref("students", lazy="dynamic"),
+                             # lazy决定了什么时候加载数据  如果不指定该值  那么当student查询数据之后 course已经有值
+                             # 如果指定该值  那么当student查询数据之后  course并没有值  而只是查询对象
+                             # 如果只是查询对象  那么就可以在用的时候再去数据库查询,避免不必要的操作影响性能
+                             lazy="dynamic",  # lazy="subquery"是默认值
+                             secondary=tb_student_course)
 
 
 class Course(db.Model):
