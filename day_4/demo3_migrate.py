@@ -5,6 +5,19 @@ from flask_migrate import Migrate, MigrateCommand
 # MigrateCommand : 迁移的命令
 from flask_script import Manager
 
+
+"""
+1.python3 文件 db init
+2.python3 文件 db migrate -m"注释"
+3.python3 文本 db upgrade 更新至本地版本
+4.根据需求修改模型
+5.python3 文本 db migrate -m"注释"
+6.pyhton3 文本 db upgrade 再次更新
+7.若返回版本 则利用 python3 文件 db history 查看版本号 
+8.python 文件 db downgrade 版本号 
+"""
+
+
 # 总结迁移的命令：
 # 1. 迁移初始化(生成迁移所需要文件夹 migrations) python xxxx.py db init
 # 2. 生成迁移版本文件 python xxxx.py db migrate -m "initial"
@@ -55,3 +68,4 @@ def index():
 
 if __name__ == '__main__':
     manager.run()
+
