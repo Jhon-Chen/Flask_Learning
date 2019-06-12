@@ -7,6 +7,7 @@ from flask_script import Manager
 
 
 """
+操作顺序:
 1.python3 文件 db init
 2.python3 文件 db migrate -m"注释"
 3.python3 文本 db upgrade 更新至本地版本
