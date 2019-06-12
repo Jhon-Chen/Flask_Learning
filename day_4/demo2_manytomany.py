@@ -16,7 +16,6 @@ tb_student_course = db.Table(
     "student_course",
     db.Column('student_id', db.Integer, db.ForeignKey("student.id")),
     db.Column('course_id', db.Integer, db.ForeignKey("course.id")),
-
 )
 
 
@@ -40,10 +39,10 @@ class Course(db.Model):
     name = db.Column(db.String(64), unique=True)
 
 
+# 订阅谁发的信号,当信号发出之后,会调用其装饰的函数
 @models_committed.connect_via(app)
-def db_changed():
-
-
+def db_changed(app, changes):
+    print(changes)
 
 
 @app.route('/')
